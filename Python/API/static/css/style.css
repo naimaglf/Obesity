@@ -1,0 +1,102 @@
+.site-navbar {
+    margin-bottom: 0px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    background: #88b7d5;
+}
+
+    .site-navbar .toggle-button {
+        position: absolute;
+        right: 0px;
+        color: #fff
+    }
+
+    .site-navbar .site-navigation .site-menu > li {
+        display: inline-block;
+    }
+
+        .site-navbar .site-navigation .site-menu > li > a {
+            margin-left: 15px;
+            margin-right: 15px;
+            padding: 20px 0px;
+            color: #0d2c60;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+            .site-navbar .site-navigation .site-menu > li > a:hover {
+                color: #000;
+            }
+
+.site-section-cover {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+    .site-section-cover .container {
+        position: relative;
+        z-index: 2;
+    }
+
+        .site-section-cover .container > .row {
+            min-height: 600px;
+        }
+
+    .site-section-cover.overlay:before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgb(223, 236, 249);
+        z-index: 1;
+    }
+
+    .site-section-cover.inner-page .container > .row {
+        height: auto;
+        min-height: auto;
+        padding: 2em 0;
+    }
+
+    .site-section-cover h1 {
+        color: #090565;
+        line-height: 1;
+    }
+
+
+    .site-section-cover h1 {
+        font-size: 2rem;
+    }
+
+    .site-section-cover p {
+        font-size: 18px;
+        color: #003a89;
+    }
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+    font-weight: 300;
+    color: #364d59;
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+
+
+.post-entry-1 .post-entry-1-contents {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+    .post-entry-1 .post-entry-1-contents h2 {
+        font-size: 21px;
+    }
