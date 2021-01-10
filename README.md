@@ -11,3 +11,5 @@ Les livrables du projet sont au nombre de 3 :
 Un PDF PowerPoint qui présente mon travail.
 Un Jupyter Notebook qui comporte la visualisation des données et la création des modèles.
 Une API flask.
+
+
