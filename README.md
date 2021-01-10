@@ -13,3 +13,6 @@ Un Jupyter Notebook qui comporte la visualisation des données et la création d
 Une API flask.
 
 
+## Requirements
+
+Python
